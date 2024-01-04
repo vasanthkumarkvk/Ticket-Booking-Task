@@ -1,0 +1,211 @@
+header{
+    position: sticky;
+    top: 1px;
+    bottom: 10px;
+    
+    /* background-image: url(image2.jpg); */
+    background-repeat: repeat;
+    background-size: cover;
+    /* width: ; */
+    font-size: 1.5em;
+
+    /* padding:0px;   */
+    grid-area: head;
+    /* border: 2px solid; */
+   border: 20px 20px 20px 20px;
+    
+}
+
+
+body{
+    display: grid;
+    grid-template-areas:
+    "head head"
+    " adds adds "
+    " footer footer";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 150px 1fr;
+   grid-gap: 20px;
+   background-image: url(image3.jpg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+
+}
+
+
+
+ul{
+   list-style-type: none;
+   
+   /* padding: 10px; */
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: black;
+}
+
+li{
+    display: inline;
+    margin: 50px;
+}
+
+
+article{
+    grid-area: adds;
+    /* background-color: rgb(237, 186, 128); */
+    /* text-align: center; */
+    /* border: 2px solid; */
+}
+
+footer{
+    grid-area: footer;
+    /* background-image: url(image2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#vasanth{
+    /* text-align-last: center; */
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 20px ;
+    border: 0px;
+    margin: 0px;
+}
+
+/* article img{
+    width:700px;
+
+} */
+
+.kk{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+article>h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#five5{
+    width:100%;
+    
+}
+
+#mail{
+    text-align: left;
+}
+
+
+
+
+/* ......................... */
+
+
+
+
+
+.regform{
+
+    width: 500px;
+    background-color:rgba(0, 0, 0, .2);
+    margin:150px auto;
+    color: rgb(245, 248, 248);
+    padding:0px 50px 20px ;
+    font-size: 30px;
+
+}
+
+#not{
+
+    text-align: center;
+    color: rgb(28, 166, 225);
+    font-size: 2em;
+    /* padding-top: 20px; */
+}
+
+.hii{
+    display:block;
+}
+
+.input>input{
+
+
+    width:100%;
+    font-size:1.2em;
+    border-radius:10px 10px; 
+    box-shadow:10px 10px 10px;
+    padding:10px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* background-color: aquamarine; */
+
+}
+
+input:focus{
+
+    background-color: cadetblue;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+
+    font-size:30px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: cadetblue;
+    border: 1px solid rgb(6, 113, 130) ;
+    border-radius: 8px;
+}
+
+.radio>input{
+
+    transform: scale(2);
+        
+
+}
+
+
+
+/* .... advance */
+
+
+
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+#date{
+    /* display: inline; */
+    margin-top: 100px;
+    width: 0px;
+
+    /* margin-left: 800px; */
+    /* position: relative;
+    left:100vw; */
+    color: aliceblue;
+}
+
