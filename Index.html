@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="move">
+        <div class="one">
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Nextpage</a></li>
+
+            </ul>
+            <!-- <h4 id="vasanth">Vasanth Creation</h4> -->
+
+            <h4 id="date"></h4>
+
+        </div>
+    </header>
+
+
+    <article>
+
+
+
+        <h3> Ticket Booking </h3>
+
+        <!-- <p>once your sign </p> -->
+
+        <div class="regform">
+
+            <h2 id="not">Sign up</h2>
+
+            <form name="myform" action="connect.php" method="POST">
+
+                <div class="input">
+                    <label for="name" class="hii">User Name:</label>
+                    <input type="text" id="name" name="username" required>
+                </div>
+
+                <div class="input">
+                    <label for="phnumber" class="hii">Mobile Number:</label>
+                    <input type="number" id="phnumber" name="phnumber" required>
+                </div>
+
+                <div class="input">
+                    <label for="age" class="hii">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+
+
+                <div class="input">
+                    <label for="email" class="hii">Email Id:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+
+                <div class="input">
+                    <label for="number" class="hii">Actual Price:</label>
+                    <input type="number" id="number" onchange="calculateDiscount()" name="actualprice" required
+                        placeholder="">
+                </div>
+
+                <div class="input">
+                    <label for="password1" class="hii">Password:</label>
+                    <input type="password" id="password1" name="password1" required>
+                </div>
+
+
+
+
+                <!-- <label for="amount" class="hii">Discount Amount:</label>
+                    <input type="number" id="amount" name="Discountamount" required> -->
+
+
+                <p>DIscount Amount: <span id="amount"></span> </p>
+
+
+
+
+
+                <div class="radio">
+                    <input type="radio" name="gendar" id="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gendar" required>
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="btn">
+                    <button type="">Register</button>
+                </div>
+
+            </form>
+
+
+    </article>
+
+
+
+
+
+    <footer>
+        <h3>Social Media</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img
+                src="https://img.icons8.com/?size=48&id=32323&format=png" alt=""></a>
+        <a href="https://www.facebook.com/" target="_blank"><img
+                src="https://img.icons8.com/?size=48&id=118497&format=png" alt=""></a>
+        <a href="https://www.twitter.com/" target="_blank"><img
+                src="https://img.icons8.com/?size=48&id=13963&format=png" alt=""></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img
+                src="https://img.icons8.com/?size=48&id=13930&format=png" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img
+                src="https://img.icons8.com/?size=48&id=19318&format=png" alt=""></a>
+
+        <p>CopyRights &copy; 2024</p>
+
+        <div id="mail">
+            <a href="mailto:vasanthkvk248@gmail.com">feedback...</a>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js">
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
